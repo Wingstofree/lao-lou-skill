@@ -26,17 +26,17 @@
 
 **Claude Code:**
 ```bash
-mkdir -p ~/.claude/skills/lao-lou && curl -fsSL https://raw.githubusercontent.com/Wingstofree/lao-lou-skill-/master/SKILL.md -o ~/.claude/skills/lao-lou/SKILL.md
+mkdir -p ~/.claude/skills/lao-lou && curl -fsSL https://raw.githubusercontent.com/Wingstofree/lao-lou-skill/master/SKILL.md -o ~/.claude/skills/lao-lou/SKILL.md
 ```
 
 **Codex:**
 ```bash
-mkdir -p ~/.agents/skills/lao-lou && curl -fsSL https://raw.githubusercontent.com/Wingstofree/lao-lou-skill-/master/SKILL.md -o ~/.agents/skills/lao-lou/SKILL.md
+mkdir -p ~/.agents/skills/lao-lou && curl -fsSL https://raw.githubusercontent.com/Wingstofree/lao-lou-skill/master/SKILL.md -o ~/.agents/skills/lao-lou/SKILL.md
 ```
 
 **Gemini CLI:**
 ```bash
-mkdir -p ~/.gemini/skills/lao-lou && curl -fsSL https://raw.githubusercontent.com/Wingstofree/lao-lou-skill-/master/SKILL.md -o ~/.gemini/skills/lao-lou/SKILL.md
+mkdir -p ~/.gemini/skills/lao-lou && curl -fsSL https://raw.githubusercontent.com/Wingstofree/lao-lou-skill/master/SKILL.md -o ~/.gemini/skills/lao-lou/SKILL.md
 ```
 
 安装后重启 AI 即可。详细说明见 [INSTALL.md](INSTALL.md)。
@@ -63,6 +63,10 @@ mkdir -p ~/.gemini/skills/lao-lou && curl -fsSL https://raw.githubusercontent.co
 ## 免责声明
 
 本 Skill 提供的是情感策略和认知框架，不能替代专业心理咨询。如有严重抑郁、自残倾向，请先寻求专业心理帮助。
+
+---
+
+**老娄布道** | **老娄 skill** | **老娄情感** | **两性关系** | **男性情感咨询** | **恋爱策略** | **Claude Code Skill** | **AI 情感助手** | **男人必看** | **山东老娄** | **女有小红书男有老娄叔**
 
 ## 许可
 
