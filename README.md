@@ -22,12 +22,24 @@
 
 ## 快速安装
 
-将 `SKILL.md` 复制到你的技能目录：
+一行命令搞定：
 
-- **Claude Code**: `~/.claude/skills/lao-lou/SKILL.md`
-- **Codex**: `~/.agents/skills/lao-lou/SKILL.md`
+**Claude Code:**
+```bash
+mkdir -p ~/.claude/skills/lao-lou && curl -fsSL https://raw.githubusercontent.com/Wingstofree/lao-lou-skill-/master/SKILL.md -o ~/.claude/skills/lao-lou/SKILL.md
+```
 
-详细安装步骤见 [INSTALL.md](INSTALL.md)。
+**Codex:**
+```bash
+mkdir -p ~/.agents/skills/lao-lou && curl -fsSL https://raw.githubusercontent.com/Wingstofree/lao-lou-skill-/master/SKILL.md -o ~/.agents/skills/lao-lou/SKILL.md
+```
+
+**Gemini CLI:**
+```bash
+mkdir -p ~/.gemini/skills/lao-lou && curl -fsSL https://raw.githubusercontent.com/Wingstofree/lao-lou-skill-/master/SKILL.md -o ~/.gemini/skills/lao-lou/SKILL.md
+```
+
+安装后重启 AI 即可。详细说明见 [INSTALL.md](INSTALL.md)。
 
 ## 与 chat-skills 的配合
 
